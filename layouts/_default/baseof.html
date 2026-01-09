@@ -5,7 +5,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="naver-site-verification" content="5241104a9277efd0c0714c38d37a8ba867877d0c" />
+  <meta name="description"
+    content="한양유화는 EVA, LDPE, LLDPE, HDPE, mLLDPE 등 고품질 폴리머 수지를 공급하는 전문 유통 기업입니다. 국내외 우수 제조사의 제품을 안정적으로 공급합니다.">
   <title>{{ .Title }}</title>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="한양유화는 EVA, LDPE, LLDPE, HDPE, mLLDPE 등 고품질 폴리머 수지를 공급하는 전문 유통 기업입니다.">
+  <meta property="og:image" content="https://hanyangpetro.com/images/hanyanglogo.png">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="주식회사 한양유화">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ .Title }}">
+  <meta name="twitter:description" content="한양유화는 EVA, LDPE, LLDPE, HDPE, mLLDPE 등 고품질 폴리머 수지를 공급하는 전문 유통 기업입니다.">
+  <meta name="twitter:image" content="https://hanyangpetro.com/images/hanyanglogo.png">
+  <meta name="twitter:domain" content="한양유화">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="/style.css?v={{ now.Unix }}">
 </head>
