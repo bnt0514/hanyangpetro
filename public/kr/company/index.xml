@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>회사소개 on 주식회사 한양유화</title>
+    <link>http://192.168.0.20:1313/kr/company/</link>
+    <description>Recent content in 회사소개 on 주식회사 한양유화</description>
+    <generator>Hugo</generator>
+    <language>kr</language>
+    <atom:link href="http://192.168.0.20:1313/kr/company/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>회사소개</title>
+      <link>http://192.168.0.20:1313/kr/company/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.0.20:1313/kr/company/intro/</guid>
+      <description>&lt;p&gt;(주)한양유화는 1999년 설립된 유화 제품 전문 유통 기업으로, 한화솔루션 PO사업부(케미칼) 공식 대리점으로서 LDPE, LLDPE(mLLDPE), EVA 등 주요 폴리에틸렌 제품을 국내 시장에 공급하고 있습니다.&lt;/p&gt;&#xA;&lt;p&gt;당사는 내수 시장을 중심으로 한 안정적인 유통 경험을 바탕으로, 한화솔루션 제품뿐만 아니라 HDPE, PP 등 타사 제품 및 수입 제품까지 폭넓게 취급하고 있습니다.&lt;/p&gt;&#xA;&lt;p&gt;제품의 용도, 특성, 수급 상황을 고려하여 고객에게 적합한 자재를 제안하는 것이 한양유화의 강점입니다.&lt;/p&gt;&#xA;&lt;p&gt;1999년 설립 이후 현재까지, 대기업부터 중소·소규모 제조업체에 이르기까지 다양한 거래처와의 거래를 지속적으로 유지해오고 있으며, 소량 구매부터 상시 공급까지 유연한 대응이 가능한 유통 파트너로 자리하고 있습니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>회사 비전</title>
+      <link>http://192.168.0.20:1313/kr/company/vision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.0.20:1313/kr/company/vision/</guid>
+      <description>&lt;div class=&#34;vision-grid&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;vision-item&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;vision-header&#34;&gt;&#xD;&#xA;      &lt;h3&gt;Forge the Future&lt;/h3&gt;&#xD;&#xA;      &lt;p class=&#34;vision-summary&#34;&gt;변화를 읽고 미래를 만듭니다&lt;/p&gt;&#xD;&#xA;      &lt;span class=&#34;vision-toggle&#34;&gt;&#xD;&#xA;        자세히 보기&#xD;&#xA;        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&#xD;&#xA;          &lt;polyline points=&#34;6 9 12 15 18 9&#34;&gt;&lt;/polyline&gt;&#xD;&#xA;        &lt;/svg&gt;&#xD;&#xA;      &lt;/span&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;div class=&#34;vision-content&#34;&gt;&#xD;&#xA;      &lt;p&gt;데이터와 기술이 경쟁력이 되는 시대,&lt;br&gt;&#xD;&#xA;      한양유화는 변화의 흐름을 읽고 스스로 혁신을 만들어 갑니다.&lt;br&gt;&#xD;&#xA;      AI 기반의 업무 자동화와 IT 솔루션을 통해&lt;br&gt;&#xD;&#xA;      전통적인 유통을 넘어 미래를 준비하는 기업으로 성장합니다.&lt;/p&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;vision-item&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;vision-header&#34;&gt;&#xD;&#xA;      &lt;h3&gt;Create Value&lt;/h3&gt;&#xD;&#xA;      &lt;p class=&#34;vision-summary&#34;&gt;실질적인 가치를 창출합니다&lt;/p&gt;&#xD;&#xA;      &lt;span class=&#34;vision-toggle&#34;&gt;&#xD;&#xA;        자세히 보기&#xD;&#xA;        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&#xD;&#xA;          &lt;polyline points=&#34;6 9 12 15 18 9&#34;&gt;&lt;/polyline&gt;&#xD;&#xA;        &lt;/svg&gt;&#xD;&#xA;      &lt;/span&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;div class=&#34;vision-content&#34;&gt;&#xD;&#xA;      &lt;p&gt;단순한 유통을 넘어,&lt;br&gt;&#xD;&#xA;      제품·용도·수급 분석과 데이터 활용을 바탕으로&lt;br&gt;&#xD;&#xA;      고객의 운영 효율을 높이는 실질적인 가치를 제공하기 위해 노력합니다.&lt;br&gt;&#xD;&#xA;      우리는 가장 합리적인 선택을 제안하는&lt;br&gt;&#xD;&#xA;      종합 솔루션 파트너를 지향합니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>오시는 길</title>
+      <link>http://192.168.0.20:1313/kr/company/location/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.0.20:1313/kr/company/location/</guid>
+      <description>&lt;div class=&#34;location-content&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;location-details&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;location-item&#34;&gt;&#xD;&#xA;      &lt;strong&gt;주소&lt;/strong&gt;&#xD;&#xA;      &lt;p&gt;경기도 시흥시 수인로3465번길 34&lt;/p&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;div class=&#34;location-item&#34;&gt;&#xD;&#xA;      &lt;strong&gt;연락처&lt;/strong&gt;&#xD;&#xA;      &lt;p&gt;전화 : 031-315-8228&lt;br&gt;팩스 : 031-315-8661&lt;br&gt;이메일 : peyang99@naver.com&lt;/p&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;map-wrapper&#34;&gt;&#xD;&#xA;    &lt;div style=&#34;width:100%; height:400px; margin-top:20px;&#34;&gt;&#xD;&#xA;      &lt;iframe&#xD;&#xA;        src=&#34;https://map.naver.com/p/search/경기도%20시흥시%20수인로3465번길%2034&#34;&#xD;&#xA;        width=&#34;100%&#34;&#xD;&#xA;        height=&#34;400&#34;&#xD;&#xA;        style=&#34;border:0;&#34;&#xD;&#xA;        loading=&#34;lazy&#34;&#xD;&#xA;        referrerpolicy=&#34;no-referrer-when-downgrade&#34;&gt;&#xD;&#xA;      &lt;/iframe&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

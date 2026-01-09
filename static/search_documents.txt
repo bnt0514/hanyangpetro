@@ -1,0 +1,21 @@
+﻿    // Documents - RoHS & 할로겐 프리
+    { title: "RoHS 인증서", path: "자료실 > RoHS", url: "/kr/documents/rohs/", content: "RoHS 유해물질 제한 지침 인증서 EVA HCR HDPE LDPE LLDPE mLLDPE" },
+    { title: "할로겐 프리 인증서", path: "자료실 > RoHS", url: "/kr/documents/rohs/", content: "할로겐 프리 인증서 Halogen Free EVA HCR HDPE LDPE LLDPE mLLDPE" },
+
+    // Documents - REACH
+    { title: "REACH SVHC Free 선언서", path: "자료실 > REACH", url: "/kr/documents/reach/", content: "REACH 화학물질 등록 평가 허가 제한 SVHC 고위험성 우려물질 부재 선언서" },
+
+    // Documents - MSDS
+    { title: "MSDS EVA", path: "자료실 > MSDS", url: "/kr/documents/msds/", content: "물질안전보건자료 Material Safety Data Sheet EVA 한국 유럽 미국" },
+    { title: "MSDS HDPE", path: "자료실 > MSDS", url: "/kr/documents/msds/", content: "물질안전보건자료 Material Safety Data Sheet HDPE" },
+    { title: "MSDS LDPE", path: "자료실 > MSDS", url: "/kr/documents/msds/", content: "물질안전보건자료 Material Safety Data Sheet LDPE 한국 미국" },
+    { title: "MSDS LLDPE", path: "자료실 > MSDS", url: "/kr/documents/msds/", content: "물질안전보건자료 Material Safety Data Sheet LLDPE 한국 미국" },
+    { title: "MSDS mLLDPE", path: "자료실 > MSDS", url: "/kr/documents/msds/", content: "물질안전보건자료 Material Safety Data Sheet mLLDPE" },
+
+    // Documents - Product Regulatory Information
+    { title: "제품 규제 정보", path: "자료실 > 제품 규제 정보", url: "/kr/documents/regulatory/", content: "Product Regulatory Information 유해물질 선언서 LDPE LLDPE MDPE HDPE mLLDPE EVA" },
+
+    // Documents - ISO 인증서
+    { title: "ISO 9001 품질경영시스템", path: "자료실 > ISO 인증서", url: "/kr/documents/iso/", content: "ISO 9001:2015 품질경영시스템 인증서 Quality Management System" },
+    { title: "ISO 14001 환경경영시스템", path: "자료실 > ISO 인증서", url: "/kr/documents/iso/", content: "ISO 14001:2015 환경경영시스템 인증서 Environmental Management System" },
+    { title: "ISO 45001 안전보건경영시스템", path: "자료실 > ISO 인증서", url: "/kr/documents/iso/", content: "ISO 45001:2018 안전보건경영시스템 인증서 Occupational Health and Safety Management System" }

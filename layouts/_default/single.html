@@ -1,0 +1,44 @@
+{{ define "main" }}
+<section class="page-content">
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+        <div class="content-body">
+            {{ .Content }}
+        </div>
+    </div>
+
+    {{ if or (eq .Section "products") (eq .Section "company") (eq .Section "documents") (in .RelPermalink "/products/")
+    }}
+    {{ $backText := "Back to List" }}
+    {{ if eq .Lang "kr" }}
+    {{ $backText = "목록으로" }}
+    {{ else if eq .Lang "chn" }}
+    {{ $backText = "返回列表" }}
+    {{ end }}
+
+    {{/* Generate parent URL by stripping last segment from current path */}}
+    {{ $backURL := .RelPermalink }}
+    {{ $backURL = strings.TrimSuffix "/" $backURL }}
+    {{ $pathParts := split $backURL "/" }}
+
+    {{ if gt (len $pathParts) 1 }}
+    {{ $parentParts := first (sub (len $pathParts) 1) $pathParts }}
+    {{ $backURL = delimit $parentParts "/" }}
+    {{ if not (strings.HasSuffix $backURL "/") }}
+    {{ $backURL = printf "%s/" $backURL }}
+    {{ end }}
+    {{ else }}
+    {{ $backURL = printf "/%s/products/" .Lang }}
+    {{ end }}
+
+    <a href="{{ $backURL }}" class="floating-back-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        <span>{{ $backText }}</span>
+    </a>
+    {{ end }}
+</section>
+{{ end }}

@@ -1,0 +1,78 @@
+baseURL = "http://localhost:1313/"
+defaultContentLanguage = "kr"
+defaultContentLanguageInSubdir = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[languages]
+  [languages.kr]
+    contentDir = "content/kr"
+    languageName = "KR"
+    weight = 1
+    title = "주식회사 한양유화"
+    [languages.kr.menu]
+      [[languages.kr.menu.main]]
+        name = "회사소개"
+        url = "/kr/company/"
+        weight = 1
+      [[languages.kr.menu.main]]
+        name = "제품소개"
+        url = "/kr/products/"
+        weight = 2
+      [[languages.kr.menu.main]]
+        name = "자료실"
+        url = "/kr/documents/"
+        weight = 3
+      [[languages.kr.menu.main]]
+        name = "문의하기"
+        url = "/kr/contact/"
+        weight = 4
+
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "EN"
+    weight = 2
+    title = "Hanyang Petrochemical Co., Ltd."
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Company"
+        url = "/en/company/"
+        weight = 1
+      [[languages.en.menu.main]]
+        name = "Products"
+        url = "/en/products/"
+        weight = 2
+      [[languages.en.menu.main]]
+        name = "Resources"
+        url = "/en/documents/"
+        weight = 3
+      [[languages.en.menu.main]]
+        name = "Contact"
+        url = "/en/contact/"
+        weight = 4
+
+  [languages.chn]
+    contentDir = "content/chn"
+    languageName = "CHN"
+    weight = 3
+    title = "汉阳石化 股份有限公司"
+    [languages.chn.menu]
+      [[languages.chn.menu.main]]
+        name = "公司介绍"
+        url = "/chn/company/"
+        weight = 1
+      [[languages.chn.menu.main]]
+        name = "产品介绍"
+        url = "/chn/products/"
+        weight = 2
+      [[languages.chn.menu.main]]
+        name = "资料室"
+        url = "/chn/documents/"
+        weight = 3
+      [[languages.chn.menu.main]]
+        name = "联系我们"
+        url = "/chn/contact/"
+        weight = 4

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>자료실 on 주식회사 한양유화</title>
+    <link>http://192.168.0.20:1313/kr/resources/</link>
+    <description>Recent content in 자료실 on 주식회사 한양유화</description>
+    <generator>Hugo</generator>
+    <language>kr</language>
+    <atom:link href="http://192.168.0.20:1313/kr/resources/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

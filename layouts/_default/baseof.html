@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/style.css?v={{ now.Unix }}">
+</head>
+
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="{{ .Site.Home.Permalink }}" class="header-brand">
+        <img src="/images/hanyanglogo.png" alt="Logo" class="header-logo">
+        <span class="header-title">{{ .Site.Title }}</span>
+      </a>
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav class="main-nav" id="main-nav">
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+      </nav>
+      <div class="lang-switcher">
+        <button id="search-btn" class="search-button" aria-label="Search">
+          <i class="fas fa-search"></i>
+        </button>
+        {{ range .Site.Home.AllTranslations }}
+        {{ $url := .Permalink }}
+        {{ $lang := .Lang }}
+        {{ range $.AllTranslations }}
+        {{ if eq .Lang $lang }}
+        {{ $url = .Permalink }}
+        {{ end }}
+        {{ end }}
+        <a href="{{ $url }}" class="{{ if eq $lang $.Lang }}active{{ end }}">{{ .Language.LanguageName }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <p>&copy; {{ now.Year }} Hanyang Petrochemical Co., Ltd. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Search Modal -->
+  <div id="search-modal" class="search-modal">
+    <div class="search-modal-content">
+      <div class="search-modal-header">
+        <h2>{{ if eq .Lang "kr" }}검색{{ else if eq .Lang "chn" }}搜索{{ else }}Search{{ end }}</h2>
+        <button id="close-search" class="close-button">&times;</button>
+      </div>
+      <div class="search-input-container">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" id="search-input" placeholder="{{ if eq .Lang " kr" }}검색어를 입력하세요...{{ else if eq .Lang "chn"
+          }}输入搜索词...{{ else }}Enter search term...{{ end }}">
+      </div>
+      <div id="search-results" class="search-results"></div>
+    </div>
+  </div>
+
+  <script src="/vision-accordion.js"></script>
+  <script src="/search.js?v={{ now.Unix }}"></script>
+  <script src="/mobile-fix.js"></script>
+</body>
+
+</html>
