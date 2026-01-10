@@ -25,7 +25,3 @@ _build:
         <h3>Reliance</h3>
     </a>
 </div>
-
-<div style="text-align: center; margin-top: 2rem;">
-  <a href="/kr/products/" class="back-button">← 목록으로</a>
-</div>
