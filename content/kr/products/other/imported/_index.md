@@ -27,5 +27,5 @@ _build:
 </div>
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="/kr/products/other/" class="back-button">← 기타제품 목록으로</a>
+  <a href="/kr/products/" class="back-button">← 목록으로</a>
 </div>
