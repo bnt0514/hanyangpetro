@@ -46,10 +46,6 @@ _build:
 
 ---
 
-<div style="text-align: center; margin-top: 2rem;">
-  <a href="/kr/products/other/" class="back-button">← 기타제품 목록으로</a>
-</div>
-
 ---
 
 자세한 견적 및 구매 문의는 [문의하기](/kr/contact/)를 통해 연락 주시기 바랍니다.
