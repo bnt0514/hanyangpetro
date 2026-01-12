@@ -11,6 +11,10 @@ LLDPE는 LDPE 대비 인장강도와 충격강도가 우수하며, 필름의 두
 
 ### 제품 목록
 
+<div style="text-align: center; background: #d91c1c; color: white; padding: 6px; font-size: 0.85rem; font-weight: 600; border-radius: 6px; margin-bottom: 10px;">
+↕ 상하좌우 스크롤 가능 ↔
+</div>
+
 <div class="table-responsive">
   <table class="product-table">
     <thead>

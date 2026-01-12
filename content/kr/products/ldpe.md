@@ -11,6 +11,10 @@ LDPE는 가공성과 투명성이 우수하여 농업용, 공업용, 포장용 �
 
 ### 제품 목록
 
+<div style="text-align: center; background: #d91c1c; color: white; padding: 6px; font-size: 0.85rem; font-weight: 600; border-radius: 6px; margin-bottom: 10px;">
+↕ 상하좌우 스크롤 가능 ↔
+</div>
+
 <div class="table-responsive">
   <table class="product-table">
     <thead>
