@@ -1018,38 +1018,7 @@ mark {
     touch-action: pan-x pan-y;
   }
 
-  /* Add scroll indicator */
-  .table-responsive::before {
-    content: '↕ 상하좌우 스크롤 가능 ↔';
-    position: sticky;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(217, 28, 28, 0.95);
-    color: white;
-    padding: 6px 15px;
-    border-radius: 0 0 10px 10px;
-    font-size: 0.75rem;
-    font-weight: 700;
-    pointer-events: none;
-    z-index: 100;
-    animation: pulse 2s infinite;
-    display: inline-block;
-    white-space: nowrap;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-
-  @keyframes pulse {
-
-    0%,
-    100% {
-      opacity: 1;
-    }
-
-    50% {
-      opacity: 0.7;
-    }
-  }
+  /* Scroll indicator removed - was causing rendering issues in KakaoTalk */
 
   .product-table {
     min-width: 800px;
