@@ -1018,9 +1018,9 @@ mark {
     touch-action: pan-x pan-y;
   }
 
-  /* Default: horizontal scroll only hint */
+  /* Scroll hint inside table - default horizontal only */
   .table-responsive::before {
-    content: '← 좌우 스크롤 가능 →';
+    content: '← 좌우 스크롤 →';
     display: block;
     text-align: center;
     background: #d91c1c;
@@ -1028,16 +1028,24 @@ mark {
     padding: 4px 10px;
     font-size: 0.7rem;
     font-weight: 600;
-    border-radius: 6px 6px 0 0;
-    margin: -2px -2px 0 -2px;
     position: sticky;
     left: 0;
-    z-index: 10;
+    top: 0;
+    z-index: 50;
   }
 
-  /* If table has vertical scroll, show both directions - Applied via JS */
-  .table-responsive.has-vertical-scroll::before {
-    content: '↕ 상하좌우 스크롤 가능 ↔';
+  /* For tables with vertical scroll (EVA, LDPE) */
+  .table-responsive.table-with-vertical-scroll::before {
+    content: '↕ 상하좌우 스크롤 ↔';
+  }
+
+  /* Sticky header for vertical scroll tables */
+  .table-responsive.table-with-vertical-scroll .product-table thead {
+    position: sticky;
+    top: 28px;
+    /* Below the scroll hint */
+    z-index: 40;
+    background: #f8f8f8;
   }
 
   .product-table {

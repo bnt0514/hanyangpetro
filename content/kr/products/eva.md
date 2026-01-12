@@ -11,11 +11,7 @@ EVA(Ethylene Vinyl Acetate)는 우수한 접착성, 투명성 및 가공성을 �
 
 ### 제품 목록
 
-<div style="text-align: center; background: #d91c1c; color: white; padding: 6px; font-size: 0.85rem; font-weight: 600; border-radius: 6px; margin-bottom: 10px;">
-↕ 상하좌우 스크롤 가능 ↔
-</div>
-
-<div class="table-responsive">
+<div class="table-responsive table-with-vertical-scroll">
   <table class="product-table">
     <thead>
       <tr>
