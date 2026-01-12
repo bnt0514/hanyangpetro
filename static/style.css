@@ -1128,6 +1128,20 @@ mark {
     word-break: break-word;
     font-size: 0.75rem;
     /* Slightly smaller text for compact display */
+
+    /* CSS Sticky Column - Robust replacement for JS */
+    position: sticky;
+    left: 0;
+    z-index: 40;
+    background-color: #fff;
+    border-right: 2px solid #eee;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+  }
+
+  /* Ensure header sticky cell stays on top */
+  .product-table thead th:first-child {
+    z-index: 60;
+    background-color: #f8f9fa;
   }
 
   /* Make download columns compact in document tables */
