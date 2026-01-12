@@ -15,6 +15,7 @@ weight: 2
   <table class="product-table">
     <thead>
       <tr>
+        <th>구분</th>
         <th>제품명</th>
         <th>용융지수<br>(g/10min)</th>
         <th>밀도<br>(g/cm³)</th>
@@ -25,6 +26,7 @@ weight: 2
     </thead>
     <tbody>
       <tr>
+        <td rowspan="11">필름</td>
         <td>M1835HN</td>
         <td>3.5</td>
         <td>0.916</td>
@@ -113,6 +115,7 @@ weight: 2
         <td><a href="/files/tds/kr/M2703EN(kor).pdf" target="_blank" class="tds-link" title="TDS 다운로드"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
       </tr>
       <tr>
+        <td>PE-RT</td>
         <td>M3705AN</td>
         <td>0.5</td>
         <td>0.937</td>
