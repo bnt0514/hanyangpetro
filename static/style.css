@@ -1030,6 +1030,9 @@ mark {
     font-weight: 600;
     border-radius: 6px 6px 0 0;
     margin: -2px -2px 0 -2px;
+    position: sticky;
+    left: 0;
+    z-index: 10;
   }
 
   /* If table has vertical scroll, show both directions - Applied via JS */

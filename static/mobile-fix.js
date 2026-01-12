@@ -45,14 +45,22 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateScrollHints() {
         const tableContainers = document.querySelectorAll('.table-responsive');
         tableContainers.forEach(function (container) {
-            // Check if content height exceeds container height
-            const hasVerticalScroll = container.scrollHeight > container.clientHeight;
+            // Wait for table to fully render
+            setTimeout(function () {
+                const table = container.querySelector('.product-table');
+                if (!table) return;
 
-            if (hasVerticalScroll) {
-                container.classList.add('has-vertical-scroll');
-            } else {
-                container.classList.remove('has-vertical-scroll');
-            }
+                // Check if table content height exceeds container's max-height (80vh)
+                const maxHeight = window.innerHeight * 0.8;
+                const tableHeight = table.offsetHeight;
+                const hasVerticalScroll = tableHeight > maxHeight;
+
+                if (hasVerticalScroll) {
+                    container.classList.add('has-vertical-scroll');
+                } else {
+                    container.classList.remove('has-vertical-scroll');
+                }
+            }, 100);
         });
     }
 
