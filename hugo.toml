@@ -1,6 +1,7 @@
 baseURL = "https://hanyangpetro.com/"
 defaultContentLanguage = "kr"
 defaultContentLanguageInSubdir = true
+canonifyURLs = true
 
 [markup]
   [markup.goldmark]
