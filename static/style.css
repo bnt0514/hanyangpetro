@@ -1056,11 +1056,10 @@ mark {
     /* Force horizontal scroll */
     font-size: 0.85rem;
     width: 100%;
-    border-collapse: separate;
-    /* Required for sticky to work well with borders */
+    border-collapse: collapse;
+    /* Changed back to collapse for simpler rendering */
     border-spacing: 0;
     overflow: visible;
-    /* CRITICAL: Allows sticky elements to work */
   }
 
   /* Override for simple document tables (2-3 columns) - fit to screen */
@@ -1071,38 +1070,23 @@ mark {
     width: 100%;
   }
 
-  /* 1. Header Sticky (Vertical Scroll) */
+  /* 1. Header Sticky (Vertical Scroll) - DISABLED ON MOBILE */
   .product-table thead {
-    position: sticky;
-    top: 0;
-    z-index: 50;
+    position: relative;
+    /* Changed from sticky */
+    top: auto;
+    z-index: 10;
   }
 
   .product-table thead th {
     background: #f8f8f8;
     border-bottom: 2px solid #d91c1c;
-    position: sticky;
-    /* Ensure th itself sticks */
-    top: 0;
+    position: relative;
+    /* Changed from sticky */
+    top: auto;
   }
 
-  /* 2. Column Sticky (Horizontal Scroll) - Handled by JS */
-  .sticky-col,
-  .sticky-col-header,
-  .sticky-body-cell,
-  .sticky-header-cell {
-    /* Base styles for sticky elements - JS sets top/left/z-index */
-    background: #fff;
-    /* Ensure opacity */
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    border-right: 2px solid #eee !important;
-  }
-
-  /* Ensure header cells that are also column-sticky stay on top of body column-sticky */
-  .sticky-header-cell {
-    z-index: 60 !important;
-    background: #f8f8f8 !important;
-  }
+  /* Column sticky classes removed - using simple scroll instead */
 
   .product-table th,
   .product-table td {
@@ -1128,20 +1112,6 @@ mark {
     word-break: break-word;
     font-size: 0.75rem;
     /* Slightly smaller text for compact display */
-
-    /* CSS Sticky Column - Robust replacement for JS */
-    position: sticky;
-    left: 0;
-    z-index: 40;
-    background-color: #fff;
-    border-right: 2px solid #eee;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
-  }
-
-  /* Ensure header sticky cell stays on top */
-  .product-table thead th:first-child {
-    z-index: 60;
-    background-color: #f8f9fa;
   }
 
   /* Make download columns compact in document tables */
