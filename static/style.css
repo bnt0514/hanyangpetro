@@ -277,12 +277,6 @@ footer {
   font-size: 0.95rem;
 }
 
-/* Make product name (2nd column) in first row of each category larger */
-.product-table tbody tr:has(td[rowspan]) td:nth-child(2) {
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
 .product-table th {
   background-color: #f8f9fa;
   font-weight: 700;
