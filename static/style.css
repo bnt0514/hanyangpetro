@@ -1018,7 +1018,24 @@ mark {
     touch-action: pan-x pan-y;
   }
 
-  /* Scroll indicator removed - was causing rendering issues in KakaoTalk */
+  /* Default: horizontal scroll only hint */
+  .table-responsive::before {
+    content: '← 좌우 스크롤 가능 →';
+    display: block;
+    text-align: center;
+    background: #d91c1c;
+    color: white;
+    padding: 4px 10px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border-radius: 6px 6px 0 0;
+    margin: -2px -2px 0 -2px;
+  }
+
+  /* If table has vertical scroll, show both directions - Applied via JS */
+  .table-responsive.has-vertical-scroll::before {
+    content: '↕ 상하좌우 스크롤 가능 ↔';
+  }
 
   .product-table {
     min-width: 800px;

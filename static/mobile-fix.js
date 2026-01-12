@@ -41,6 +41,26 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
+    // Detect vertical scroll in tables and update hint
+    function updateScrollHints() {
+        const tableContainers = document.querySelectorAll('.table-responsive');
+        tableContainers.forEach(function (container) {
+            // Check if content height exceeds container height
+            const hasVerticalScroll = container.scrollHeight > container.clientHeight;
+
+            if (hasVerticalScroll) {
+                container.classList.add('has-vertical-scroll');
+            } else {
+                container.classList.remove('has-vertical-scroll');
+            }
+        });
+    }
+
+    // Run on load and resize
+    window.addEventListener('load', updateScrollHints);
+    window.addEventListener('resize', updateScrollHints);
+    updateScrollHints(); // Run immediately
+
     // Add touch scroll styling
     const style = document.createElement('style');
     style.textContent = `
