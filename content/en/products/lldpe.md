@@ -40,7 +40,7 @@ LLDPE offers superior tensile and impact strength compared to LDPE, allowing for
         <td>0.922</td>
         <td>Processability, Strength, Weatherability</td>
         <td>Mulching</td>
-        <td><a href="/files/tds/en/3120MF(eng).pdf" target="_blank" class="tds-link" title="Download TDS"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
+        <td></td>
       </tr>
       <tr>
         <td>3123</td>
@@ -48,7 +48,7 @@ LLDPE offers superior tensile and impact strength compared to LDPE, allowing for
         <td>0.924</td>
         <td>Processability, Strength, Optical Properties</td>
         <td>Non-slip, Lamination, Heavy Duty</td>
-        <td><a href="/files/tds/en/3123(eng).pdf" target="_blank" class="tds-link" title="Download TDS"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
+        <td></td>
       </tr>
       <tr>
         <td>3126</td>

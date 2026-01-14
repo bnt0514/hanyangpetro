@@ -71,11 +71,11 @@ description: "材料安全数据表"
     <tbody>
       <tr>
         <td><strong>韩国 (KR)</strong></td>
-        <td><a href="/files/msds/LDPE/KR_MSDS_LDPE_20240105.pdf" target="_blank" class="tds-link" title="下载"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
+        <td><a href="/files/msds/LDPE/KR_MSDS_LDPE_ver.2.pdf" target="_blank" class="tds-link" title="下载"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
       </tr>
       <tr>
         <td><strong>美国 (US)</strong></td>
-        <td><a href="/files/msds/LDPE/US_SDS_LDPE_20240105.pdf" target="_blank" class="tds-link" title="下载"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
+        <td><a href="/files/msds/LDPE/US_SDS_LDPE_Ver.1.pdf" target="_blank" class="tds-link" title="下载"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
       </tr>
     </tbody>
   </table>
@@ -94,15 +94,15 @@ description: "材料安全数据表"
     <tbody>
       <tr>
         <td><strong>韩国 (KR) - 1</strong></td>
-        <td><a href="/files/msds/LLDPE/KR_MSDS_LLDPE-1_ver.1.pdf" target="_blank" class="tds-link" title="下载"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
+        <td><a href="/files/msds/LLDPE/KR_MSDS_LLDPE-1_ver.2.pdf" target="_blank" class="tds-link" title="下载"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
       </tr>
       <tr>
         <td><strong>韩国 (KR) - 2</strong></td>
-        <td><a href="/files/msds/LLDPE/KR_MSDS_LLDPE-2_ver.1.pdf" target="_blank" class="tds-link" title="下载"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
+        <td><a href="/files/msds/LLDPE/KR_MSDS_LLDPE-2_ver.2.pdf" target="_blank" class="tds-link" title="下载"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
       </tr>
       <tr>
         <td><strong>美国 (US)</strong></td>
-        <td><a href="/files/msds/LLDPE/US_SDS_LLDPE_20240105.pdf" target="_blank" class="tds-link" title="下载"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
+        <td><a href="/files/msds/LLDPE/US_SDS_LLDPE-1_Ver.1.pdf" target="_blank" class="tds-link" title="下载"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
       </tr>
     </tbody>
   </table>

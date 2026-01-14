@@ -13,6 +13,7 @@ _build:
 
 ### 经营品牌
 
+- **<a href="https://www.htpchem.com/product/product_polymer?depth2Cd=AABB" target="_blank" rel="noopener">韩华道达尔</a>** - PP、HDPE等
 - **<a href="https://product.lottechem.com/ko/basic_materials/datasheets.do?cat1Idx=4&cat2Idx=21&cat3Idx=&miFrom=&miTo=&keyword=" target="_blank" rel="noopener">乐天化学</a>** - 聚烯烃、ABS等
 - **<a href="https://www.lgchem.com/product-detail/hdpe" target="_blank" rel="noopener">LG化学</a>** - PE、PP、ABS等
 - **<a href="https://www.dlchemical.co.kr/ko/biz/polyethylene" target="_blank" rel="noopener">DL化学</a>** - 聚烯烃产品

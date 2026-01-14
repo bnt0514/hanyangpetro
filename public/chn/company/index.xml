@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>公司介绍 on 汉阳石化 股份有限公司</title>
-    <link>http://localhost:7282/chn/company/</link>
+    <link>https://hanyangpetro.com/chn/company/</link>
     <description>Recent content in 公司介绍 on 汉阳石化 股份有限公司</description>
     <generator>Hugo</generator>
     <language>chn</language>
-    <atom:link href="http://localhost:7282/chn/company/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hanyangpetro.com/chn/company/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>公司介绍</title>
-      <link>http://localhost:7282/chn/company/intro/</link>
+      <link>https://hanyangpetro.com/chn/company/intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7282/chn/company/intro/</guid>
+      <guid>https://hanyangpetro.com/chn/company/intro/</guid>
       <description>&lt;p&gt;汉阳石化有限公司成立于1999年，是一家专业从事石油化工产品流通的企业，同时也是韩华解决方案（Hanwha Solutions）PO事业部（化学品）的官方代理商，主要向韩国国内市场供应LDPE、LLDPE（mLLDPE）、EVA等核心聚乙烯产品。&lt;/p&gt;&#xA;&lt;p&gt;凭借二十余年的国内流通经验，我们不仅经销韩华解决方案的产品，还根据客户需求提供HDPE、PP及其他第三方或进口材料。&lt;/p&gt;&#xA;&lt;p&gt;公司始终以产品用途、供应稳定性及市场状况为基础，为客户推荐最合适的原材料解决方案。&lt;/p&gt;&#xA;&lt;p&gt;自成立以来，汉阳石化持续与大型企业、中小型制造商等多样化客户保持长期稳定的合作关系，能够灵活应对小批量采购及长期定期供货需求。&lt;/p&gt;&#xA;&lt;p&gt;我们的目标不仅在于产品供应，更致力于成为客户值得信赖的长期合作伙伴。&lt;/p&gt;&#xA;&lt;p&gt;如有产品咨询、价格洽谈或供货相关问题，欢迎随时与我们联系。&lt;/p&gt;</description>
     </item>
     <item>
       <title>公司愿景</title>
-      <link>http://localhost:7282/chn/company/vision/</link>
+      <link>https://hanyangpetro.com/chn/company/vision/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7282/chn/company/vision/</guid>
+      <guid>https://hanyangpetro.com/chn/company/vision/</guid>
       <description>&lt;div class=&#34;vision-grid&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;vision-item&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;vision-header&#34;&gt;&#xD;&#xA;      &lt;h3&gt;Forge the Future&lt;/h3&gt;&#xD;&#xA;      &lt;p class=&#34;vision-summary&#34;&gt;解读变化，创造未来&lt;/p&gt;&#xD;&#xA;      &lt;span class=&#34;vision-toggle&#34;&gt;&#xD;&#xA;        了解更多&#xD;&#xA;        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&#xD;&#xA;          &lt;polyline points=&#34;6 9 12 15 18 9&#34;&gt;&lt;/polyline&gt;&#xD;&#xA;        &lt;/svg&gt;&#xD;&#xA;      &lt;/span&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;div class=&#34;vision-content&#34;&gt;&#xD;&#xA;      &lt;p&gt;在数据与技术成为竞争力的时代，&lt;br&gt;&#xD;&#xA;      汉阳解读变化趋势，自主创造革新。&lt;br&gt;&#xD;&#xA;      通过基于AI的业务自动化和IT解决方案，&lt;br&gt;&#xD;&#xA;      超越传统流通，成长为准备未来的企业。&lt;/p&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;vision-item&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;vision-header&#34;&gt;&#xD;&#xA;      &lt;h3&gt;Create Value&lt;/h3&gt;&#xD;&#xA;      &lt;p class=&#34;vision-summary&#34;&gt;创造实际价值&lt;/p&gt;&#xD;&#xA;      &lt;span class=&#34;vision-toggle&#34;&gt;&#xD;&#xA;        了解更多&#xD;&#xA;        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&#xD;&#xA;          &lt;polyline points=&#34;6 9 12 15 18 9&#34;&gt;&lt;/polyline&gt;&#xD;&#xA;        &lt;/svg&gt;&#xD;&#xA;      &lt;/span&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;div class=&#34;vision-content&#34;&gt;&#xD;&#xA;      &lt;p&gt;超越单纯的流通，&lt;br&gt;&#xD;&#xA;      基于产品、用途、供需分析与数据应用&lt;br&gt;&#xD;&#xA;      致力于提供提升客户运营效率的实际价值。&lt;br&gt;&#xD;&#xA;      我们致力于成为提供最合理选择的&lt;br&gt;&#xD;&#xA;      综合解决方案合作伙伴。&lt;/p&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;vision-item&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;vision-header&#34;&gt;&#xD;&#xA;      &lt;h3&gt;Grow Together&lt;/h3&gt;&#xD;&#xA;      &lt;p class=&#34;vision-summary&#34;&gt;共同学习与成长&lt;/p&gt;&#xD;&#xA;      &lt;span class=&#34;vision-toggle&#34;&gt;&#xD;&#xA;        了解更多&#xD;&#xA;        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&#xD;&#xA;          &lt;polyline points=&#34;6 9 12 15 18 9&#34;&gt;&lt;/polyline&gt;&#xD;&#xA;        &lt;/svg&gt;&#xD;&#xA;      &lt;/span&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;div class=&#34;vision-content&#34;&gt;&#xD;&#xA;      &lt;p&gt;汉阳的成长始于人与关系。&lt;br&gt;&#xD;&#xA;      员工的现场经验与责任感，&lt;br&gt;&#xD;&#xA;      与客户和合作伙伴的信任推动着公司成长。&lt;br&gt;&#xD;&#xA;      我们与成员、客户、制造商共同学习成长，&lt;br&gt;&#xD;&#xA;      追求可持续的共同成长。&lt;/p&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>公司地址</title>
-      <link>http://localhost:7282/chn/company/location/</link>
+      <link>https://hanyangpetro.com/chn/company/location/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7282/chn/company/location/</guid>
+      <guid>https://hanyangpetro.com/chn/company/location/</guid>
       <description>&lt;div class=&#34;location-content&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;location-details&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;location-item&#34;&gt;&#xD;&#xA;      &lt;strong&gt;地址&lt;/strong&gt;&#xD;&#xA;      &lt;p&gt;韩国 京畿道 始兴市 水仁路3465番街 34号&lt;/p&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;div class=&#34;location-item&#34;&gt;&#xD;&#xA;      &lt;strong&gt;联系方式&lt;/strong&gt;&#xD;&#xA;      &lt;p&gt;电话：+82-31-315-8228&lt;br&gt;传真：+82-31-315-8661&lt;br&gt;电子邮箱：peyang99@naver.com&lt;/p&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;map-wrapper&#34;&gt;&#xD;&#xA;    &lt;div style=&#34;width:100%; height:400px; margin-top:20px;&#34;&gt;&#xD;&#xA;      &lt;iframe&#xD;&#xA;        src=&#34;https://map.naver.com/p/search/경기도%20시흥시%20수인로3465번길%2034&#34;&#xD;&#xA;        width=&#34;100%&#34;&#xD;&#xA;        height=&#34;400&#34;&#xD;&#xA;        style=&#34;border:0;&#34;&#xD;&#xA;        loading=&#34;lazy&#34;&#xD;&#xA;        referrerpolicy=&#34;no-referrer-when-downgrade&#34;&gt;&#xD;&#xA;      &lt;/iframe&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
   </channel>

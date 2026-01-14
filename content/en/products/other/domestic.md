@@ -13,6 +13,7 @@ Please contact us for details.
 
 ### Available Brands
 
+- **<a href="https://www.htpchem.com/product/product_polymer?depth2Cd=AABB" target="_blank" rel="noopener">Hanwha Total</a>** - PP, HDPE, etc.
 - **<a href="https://product.lottechem.com/ko/basic_materials/datasheets.do?cat1Idx=4&cat2Idx=21&cat3Idx=&miFrom=&miTo=&keyword=" target="_blank" rel="noopener">Lotte Chemical</a>** - Polyolefins, ABS, etc.
 - **<a href="https://www.lgchem.com/product-detail/hdpe" target="_blank" rel="noopener">LG Chem</a>** - PE, PP, ABS, etc.
 - **<a href="https://www.dlchemical.co.kr/ko/biz/polyethylene" target="_blank" rel="noopener">DL Chemical</a>** - Polyolefin products

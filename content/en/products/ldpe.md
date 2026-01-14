@@ -80,7 +80,7 @@ LDPE is widely used in various fields such as agricultural, industrial, and pack
         <td>0.923</td>
         <td>Strength</td>
         <td>Cross-linked Foam</td>
-        <td><a href="/files/tds/en/5316F(eng).pdf" target="_blank" class="tds-link" title="Download TDS"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
+        <td></td>
       </tr>
       <tr>
         <td>5318</td>
@@ -112,7 +112,7 @@ LDPE is widely used in various fields such as agricultural, industrial, and pack
         <td>0.923</td>
         <td>Processability, Properties</td>
         <td>Non-crosslinked Foam</td>
-        <td><a href="/files/tds/en/5321F(eng).pdf" target="_blank" class="tds-link" title="Download TDS"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
+        <td></td>
       </tr>
       <tr>
         <td>5322F</td>
@@ -120,7 +120,7 @@ LDPE is widely used in various fields such as agricultural, industrial, and pack
         <td>0.923</td>
         <td>Processability</td>
         <td>Non-crosslinked Foam</td>
-        <td><a href="/files/tds/en/5322F(eng).pdf" target="_blank" class="tds-link" title="Download TDS"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
+        <td></td>
       </tr>
       <tr>
         <td>5325</td>

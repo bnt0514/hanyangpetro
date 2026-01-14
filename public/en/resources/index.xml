@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on Hanyang Petrochemical Co., Ltd.</title>
-    <link>http://localhost:7282/en/resources/</link>
+    <link>https://hanyangpetro.com/en/resources/</link>
     <description>Recent content in Resources on Hanyang Petrochemical Co., Ltd.</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:7282/en/resources/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hanyangpetro.com/en/resources/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
