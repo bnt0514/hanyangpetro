@@ -41,105 +41,33 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Mobile table scroll fix - Advanced Sticky Columns
-    function applyStickyColumns() {
-        const tables = document.querySelectorAll('.product-table');
+    // Detect vertical scroll in tables and update hint
+    function updateScrollHints() {
+        const tableContainers = document.querySelectorAll('.table-responsive');
+        tableContainers.forEach(function (container) {
+            // Wait for table to fully render
+            setTimeout(function () {
+                const table = container.querySelector('.product-table');
+                if (!table) return;
 
-        tables.forEach(function (table) {
-            const thead = table.querySelector('thead');
-            const tbody = table.querySelector('tbody');
-            if (!thead || !tbody) return;
+                // Check if table content height exceeds container's max-height (80vh)
+                const maxHeight = window.innerHeight * 0.8;
+                const tableHeight = table.offsetHeight;
+                const hasVerticalScroll = tableHeight > maxHeight;
 
-            const headerRow = thead.querySelector('tr');
-            if (!headerRow) return;
-
-            // 1. Identify table type and sticky columns
-            const headerCells = Array.from(headerRow.cells);
-            const colCount = headerCells.length;
-
-            // Document tables (RoHS, MSDS) typically have 2-3 columns - only stick first column
-            // Product tables have 7+ columns - stick first 2 columns
-            const stickyCount = colCount <= 3 ? 1 : 2;
-
-            if (headerCells.length < stickyCount) return;            // 2. Measure Widths & Assign Header Sticky
-            let currentLeft = 0;
-            const colWidths = [];
-
-            headerCells.forEach((th, index) => {
-                // Get precise width including padding/border
-                const rect = th.getBoundingClientRect();
-                const width = rect.width;
-                colWidths[index] = width;
-
-                if (index < stickyCount) {
-                    th.style.position = 'sticky';
-                    th.style.left = currentLeft + 'px';
-                    th.style.zIndex = '60';
-                    th.classList.add('sticky-header-cell');
-
-                    // Advance offset for next column
-                    currentLeft += width;
+                if (hasVerticalScroll) {
+                    container.classList.add('has-vertical-scroll');
+                } else {
+                    container.classList.remove('has-vertical-scroll');
                 }
-            });
-
-            // 3. Apply to Body Rows (handling rowspan)
-            const numCols = headerCells.length;
-            const rowSpans = new Array(numCols).fill(0);
-
-            const rows = Array.from(tbody.querySelectorAll('tr'));
-
-            rows.forEach(tr => {
-                const cells = Array.from(tr.cells);
-                let cellIndex = 0; // DOM cell index
-
-                // Iterate VISUAL columns
-                for (let visualCol = 0; visualCol < numCols; visualCol++) {
-                    // Check if spanned
-                    if (rowSpans[visualCol] > 0) {
-                        rowSpans[visualCol]--;
-                        continue;
-                    }
-
-                    // If not spanned, consume DOM cell
-                    if (cellIndex < cells.length) {
-                        const cell = cells[cellIndex];
-
-                        // Update rowspan
-                        const span = (parseInt(cell.getAttribute('rowspan')) || 1) - 1;
-                        if (span > 0) {
-                            rowSpans[visualCol] = span;
-                        }
-
-                        // Apply sticky if target column
-                        if (visualCol < stickyCount) {
-                            cell.style.position = 'sticky';
-
-                            // Calculate left offset
-                            let leftPos = 0;
-                            for (let i = 0; i < visualCol; i++) {
-                                leftPos += colWidths[i];
-                            }
-
-                            cell.style.left = leftPos + 'px';
-                            // Dynamic Z-Index to ensure first col is above second
-                            cell.style.zIndex = (50 - visualCol) + '';
-                            cell.style.background = '#fff';
-                            cell.classList.add('sticky-body-cell');
-                            cell.style.borderRight = '1px solid #ddd'; // Visual separator
-                        }
-
-                        cellIndex++;
-                    }
-                }
-            });
+            }, 100);
         });
     }
 
-    // Run on load and resize to ensure correct widths
-    window.addEventListener('load', applyStickyColumns);
-    window.addEventListener('resize', applyStickyColumns);
-    // Also run immediately in case DOM is ready
-    applyStickyColumns();
+    // Run on load and resize
+    window.addEventListener('load', updateScrollHints);
+    window.addEventListener('resize', updateScrollHints);
+    updateScrollHints(); // Run immediately
 
     // Add touch scroll styling
     const style = document.createElement('style');

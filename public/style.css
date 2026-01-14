@@ -867,6 +867,21 @@ mark {
   /* Add viewport meta for proper scaling */
   html {
     -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  /* Prevent mobile browser auto-zoom on form inputs and table cells */
+  input,
+  select,
+  textarea,
+  .product-table td,
+  .product-table th {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
 
   /* Header mobile optimization */
@@ -1018,37 +1033,34 @@ mark {
     touch-action: pan-x pan-y;
   }
 
-  /* Add scroll indicator */
+  /* Scroll hint inside table - default horizontal only */
   .table-responsive::before {
-    content: '↕ 상하좌우 스크롤 가능 ↔';
-    position: sticky;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(217, 28, 28, 0.95);
+    content: '← 좌우 스크롤 →';
+    display: block;
+    text-align: center;
+    background: #d91c1c;
     color: white;
-    padding: 6px 15px;
-    border-radius: 0 0 10px 10px;
-    font-size: 0.75rem;
-    font-weight: 700;
-    pointer-events: none;
-    z-index: 100;
-    animation: pulse 2s infinite;
-    display: inline-block;
-    white-space: nowrap;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 4px 10px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 50;
   }
 
-  @keyframes pulse {
+  /* For tables with vertical scroll (EVA, LDPE) */
+  .table-responsive.table-with-vertical-scroll::before {
+    content: '↕ 상하좌우 스크롤 ↔';
+  }
 
-    0%,
-    100% {
-      opacity: 1;
-    }
-
-    50% {
-      opacity: 0.7;
-    }
+  /* Sticky header for vertical scroll tables */
+  .table-responsive.table-with-vertical-scroll .product-table thead {
+    position: sticky;
+    top: 28px;
+    /* Below the scroll hint */
+    z-index: 40;
+    background: #f8f8f8;
   }
 
   .product-table {
@@ -1056,11 +1068,10 @@ mark {
     /* Force horizontal scroll */
     font-size: 0.85rem;
     width: 100%;
-    border-collapse: separate;
-    /* Required for sticky to work well with borders */
+    border-collapse: collapse;
+    /* Changed back to collapse for simpler rendering */
     border-spacing: 0;
     overflow: visible;
-    /* CRITICAL: Allows sticky elements to work */
   }
 
   /* Override for simple document tables (2-3 columns) - fit to screen */
@@ -1071,48 +1082,36 @@ mark {
     width: 100%;
   }
 
-  /* 1. Header Sticky (Vertical Scroll) */
+  /* 1. Header Sticky (Vertical Scroll) - DISABLED ON MOBILE */
   .product-table thead {
-    position: sticky;
-    top: 0;
-    z-index: 50;
+    position: relative;
+    /* Changed from sticky */
+    top: auto;
+    z-index: 10;
   }
 
   .product-table thead th {
     background: #f8f8f8;
     border-bottom: 2px solid #d91c1c;
-    position: sticky;
-    /* Ensure th itself sticks */
-    top: 0;
+    position: relative;
+    /* Changed from sticky */
+    top: auto;
   }
 
-  /* 2. Column Sticky (Horizontal Scroll) - Handled by JS */
-  .sticky-col,
-  .sticky-col-header,
-  .sticky-body-cell,
-  .sticky-header-cell {
-    /* Base styles for sticky elements - JS sets top/left/z-index */
-    background: #fff;
-    /* Ensure opacity */
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    border-right: 2px solid #eee !important;
-  }
-
-  /* Ensure header cells that are also column-sticky stay on top of body column-sticky */
-  .sticky-header-cell {
-    z-index: 60 !important;
-    background: #f8f8f8 !important;
-  }
+  /* Column sticky classes removed - using simple scroll instead */
 
   .product-table th,
   .product-table td {
     padding: 10px 8px;
     white-space: nowrap;
     border: 1px solid #e0e0e0;
+    font-size: 0.85rem;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
   }
 
   .product-table th {
-    font-size: 0.8rem;
+    font-weight: 700;
   }
 
   /* Document tables (simple 2-3 column tables like RoHS, MSDS) - Tight first column */
@@ -1126,8 +1125,7 @@ mark {
     white-space: normal;
     /* Allow wrapping if needed */
     word-break: break-word;
-    font-size: 0.75rem;
-    /* Slightly smaller text for compact display */
+    /* Font size same as other cells - removed smaller font */
   }
 
   /* Make download columns compact in document tables */
@@ -1297,9 +1295,7 @@ mark {
     font-size: 1.5rem;
   }
 
-  .product-table {
-    font-size: 0.75rem;
-  }
+  /* Extra small: no additional table font-size reduction - use parent 0.85rem */
 
   .product-table th,
   .product-table td {

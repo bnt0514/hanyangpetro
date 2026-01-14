@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 汉阳石化 股份有限公司</title>
-    <link>http://192.168.0.20:1313/chn/tags/</link>
+    <link>http://localhost:7282/chn/tags/</link>
     <description>Recent content in Tags on 汉阳石化 股份有限公司</description>
     <generator>Hugo</generator>
     <language>chn</language>
-    <atom:link href="http://192.168.0.20:1313/chn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:7282/chn/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

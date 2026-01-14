@@ -59,7 +59,7 @@ HDPE is used for various applications such as containers, pipes, and films due t
         <td>0.939</td>
         <td>Processability</td>
         <td>Wire Compound, Waterproof Sheet</td>
-        <td><a href="/files/tds/en/9030(eng).pdf" target="_blank" class="tds-link" title="Download TDS"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
+        <td></td>
       </tr>
       <tr>
         <td>9031</td>
@@ -67,7 +67,7 @@ HDPE is used for various applications such as containers, pipes, and films due t
         <td>0.944</td>
         <td>Processability</td>
         <td>Wire Compound</td>
-        <td><a href="/files/tds/en/9031(eng).pdf" target="_blank" class="tds-link" title="Download TDS"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
+        <td></td>
       </tr>
       <tr>
         <td rowspan="2">Monofilament</td>

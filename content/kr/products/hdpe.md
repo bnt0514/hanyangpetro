@@ -32,7 +32,7 @@ HDPE는 강도와 내화학성이 우수하여 각종 용기, 파이프, 필름 
         <td>0.959</td>
         <td>가공성, 충격강도</td>
         <td>운반용기용, 일반용기용</td>
-        <td><a href="/files/tds/kr/7600(kor).pdf" target="_blank" class="tds-link" title="TDS 다운로드"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
+        <td><a href="/files/tds/kr/7600(ko).pdf" target="_blank" class="tds-link" title="TDS 다운로드"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
       </tr>
       <tr>
         <td>Yarn용</td>
@@ -84,7 +84,7 @@ HDPE는 강도와 내화학성이 우수하여 각종 용기, 파이프, 필름 
         <td>0.954</td>
         <td>연신율, 인장특성, 내후성</td>
         <td>모노필라멘트용</td>
-        <td><a href="/files/tds/kr/3390UV(kor).pdf" target="_blank" class="tds-link" title="TDS 다운로드"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
+        <td><a href="/files/tds/en/3390UV(eng).pdf" target="_blank" class="tds-link" title="TDS 다운로드"><i class="fas fa-file-pdf fa-2x" style="color: #e74c3c;"></i></a></td>
       </tr>
     </tbody>
   </table>

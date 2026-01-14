@@ -2,378 +2,378 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.0.20:1313/en/company/</loc>
+    <loc>http://localhost:7282/en/company/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/company/"
+                href="http://localhost:7282/kr/company/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/company/"
+                href="http://localhost:7282/chn/company/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/company/"
+                href="http://localhost:7282/en/company/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/company/intro/</loc>
+    <loc>http://localhost:7282/en/company/intro/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/company/intro/"
+                href="http://localhost:7282/kr/company/intro/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/company/intro/"
+                href="http://localhost:7282/chn/company/intro/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/company/intro/"
+                href="http://localhost:7282/en/company/intro/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/products/eva/</loc>
+    <loc>http://localhost:7282/en/products/eva/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/products/eva/"
+                href="http://localhost:7282/kr/products/eva/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/products/eva/"
+                href="http://localhost:7282/chn/products/eva/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/products/eva/"
+                href="http://localhost:7282/en/products/eva/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/documents/rohs/</loc>
+    <loc>http://localhost:7282/en/documents/rohs/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/documents/rohs/"
+                href="http://localhost:7282/kr/documents/rohs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/documents/rohs/"
+                href="http://localhost:7282/chn/documents/rohs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/documents/rohs/"
+                href="http://localhost:7282/en/documents/rohs/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/products/mllldpe/</loc>
+    <loc>http://localhost:7282/en/products/mllldpe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/products/mllldpe/"
+                href="http://localhost:7282/kr/products/mllldpe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/products/mllldpe/"
+                href="http://localhost:7282/chn/products/mllldpe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/products/mllldpe/"
+                href="http://localhost:7282/en/products/mllldpe/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/company/vision/</loc>
+    <loc>http://localhost:7282/en/company/vision/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/company/vision/"
+                href="http://localhost:7282/kr/company/vision/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/company/vision/"
+                href="http://localhost:7282/chn/company/vision/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/company/vision/"
+                href="http://localhost:7282/en/company/vision/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/documents/reach/</loc>
+    <loc>http://localhost:7282/en/documents/reach/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/documents/reach/"
+                href="http://localhost:7282/kr/documents/reach/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/documents/reach/"
+                href="http://localhost:7282/chn/documents/reach/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/documents/reach/"
+                href="http://localhost:7282/en/documents/reach/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/company/location/</loc>
+    <loc>http://localhost:7282/en/company/location/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/company/location/"
+                href="http://localhost:7282/kr/company/location/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/company/location/"
+                href="http://localhost:7282/chn/company/location/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/company/location/"
+                href="http://localhost:7282/en/company/location/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/products/ldpe/</loc>
+    <loc>http://localhost:7282/en/products/ldpe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/products/ldpe/"
+                href="http://localhost:7282/kr/products/ldpe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/products/ldpe/"
+                href="http://localhost:7282/chn/products/ldpe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/products/ldpe/"
+                href="http://localhost:7282/en/products/ldpe/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/documents/msds/</loc>
+    <loc>http://localhost:7282/en/documents/msds/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/documents/msds/"
+                href="http://localhost:7282/kr/documents/msds/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/documents/msds/"
+                href="http://localhost:7282/chn/documents/msds/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/documents/msds/"
+                href="http://localhost:7282/en/documents/msds/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/documents/</loc>
+    <loc>http://localhost:7282/en/documents/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/documents/"
+                href="http://localhost:7282/kr/documents/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/documents/"
+                href="http://localhost:7282/chn/documents/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/documents/"
+                href="http://localhost:7282/en/documents/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/products/lldpe/</loc>
+    <loc>http://localhost:7282/en/products/lldpe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/products/lldpe/"
+                href="http://localhost:7282/kr/products/lldpe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/products/lldpe/"
+                href="http://localhost:7282/chn/products/lldpe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/products/lldpe/"
+                href="http://localhost:7282/en/products/lldpe/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/documents/regulatory/</loc>
+    <loc>http://localhost:7282/en/documents/regulatory/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/documents/regulatory/"
+                href="http://localhost:7282/kr/documents/regulatory/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/documents/regulatory/"
+                href="http://localhost:7282/chn/documents/regulatory/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/documents/regulatory/"
+                href="http://localhost:7282/en/documents/regulatory/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/products/hdpe/</loc>
+    <loc>http://localhost:7282/en/products/hdpe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/products/hdpe/"
+                href="http://localhost:7282/kr/products/hdpe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/products/hdpe/"
+                href="http://localhost:7282/chn/products/hdpe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/products/hdpe/"
+                href="http://localhost:7282/en/products/hdpe/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/documents/iso/</loc>
+    <loc>http://localhost:7282/en/documents/iso/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/documents/iso/"
+                href="http://localhost:7282/kr/documents/iso/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/documents/iso/"
+                href="http://localhost:7282/chn/documents/iso/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/documents/iso/"
+                href="http://localhost:7282/en/documents/iso/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/products/other/</loc>
+    <loc>http://localhost:7282/en/products/other/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/products/other/"
+                href="http://localhost:7282/kr/products/other/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/products/other/"
+                href="http://localhost:7282/chn/products/other/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/products/other/"
+                href="http://localhost:7282/en/products/other/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/categories/</loc>
+    <loc>http://localhost:7282/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/categories/"
+                href="http://localhost:7282/kr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/categories/"
+                href="http://localhost:7282/chn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/categories/"
+                href="http://localhost:7282/en/categories/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/contact/</loc>
+    <loc>http://localhost:7282/en/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/contact/"
+                href="http://localhost:7282/kr/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/contact/"
+                href="http://localhost:7282/chn/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/contact/"
+                href="http://localhost:7282/en/contact/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/</loc>
+    <loc>http://localhost:7282/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/"
+                href="http://localhost:7282/kr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/"
+                href="http://localhost:7282/chn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/"
+                href="http://localhost:7282/en/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/products/</loc>
+    <loc>http://localhost:7282/en/products/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/products/"
+                href="http://localhost:7282/kr/products/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/products/"
+                href="http://localhost:7282/chn/products/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/products/"
+                href="http://localhost:7282/en/products/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/resources/</loc>
+    <loc>http://localhost:7282/en/resources/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/resources/"
+                href="http://localhost:7282/kr/resources/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/resources/"
+                href="http://localhost:7282/chn/resources/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/resources/"
+                href="http://localhost:7282/en/resources/"
                 />
   </url><url>
-    <loc>http://192.168.0.20:1313/en/tags/</loc>
+    <loc>http://localhost:7282/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://192.168.0.20:1313/kr/tags/"
+                href="http://localhost:7282/kr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="chn"
-                href="http://192.168.0.20:1313/chn/tags/"
+                href="http://localhost:7282/chn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.20:1313/en/tags/"
+                href="http://localhost:7282/en/tags/"
                 />
   </url>
 </urlset>
