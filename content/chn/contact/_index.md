@@ -13,33 +13,47 @@ layout: "single"
 <h3>联系信息</h3>
 
 <div class="info-line">
+<div class="info-label">
 <i class="fas fa-phone"></i>
-<strong>电话:</strong>
+<strong>电话</strong>
+</div>
+<div class="info-value">
 <a href="tel:+82-31-315-8228">+82-31-315-8228</a>
 </div>
+</div>
 
 <div class="info-line">
+<div class="info-label">
 <i class="fas fa-envelope"></i>
-<strong>电子邮箱:</strong>
+<strong>电子邮箱</strong>
+</div>
+<div class="info-value">
 <a href="mailto:peyang99@naver.com">peyang99@naver.com</a>
 </div>
+</div>
 
 <div class="info-line">
+<div class="info-label">
 <i class="fas fa-fax"></i>
-<strong>传真:</strong>
-+82-31-315-8661
+<strong>传真</strong>
+</div>
+<div class="info-value">+82-31-315-8661</div>
 </div>
 
 <div class="info-line">
+<div class="info-label">
 <i class="fas fa-map-marker-alt"></i>
-<strong>地址:</strong>
-大韩民国 京畿道 始兴市 水仁路3465号街34
+<strong>地址</strong>
+</div>
+<div class="info-value">大韩民国 京畿道 始兴市 水仁路3465号街34</div>
 </div>
 
 <div class="info-line">
+<div class="info-label">
 <i class="fas fa-clock"></i>
-<strong>营业时间:</strong>
-平日 上午9:00 - 下午5:30 (周末及公休日休息)
+<strong>营业时间</strong>
+</div>
+<div class="info-value">平日 上午9:00 - 下午5:30 (周末及公休日休息)</div>
 </div>
 </div>
 </div>

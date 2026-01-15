@@ -13,33 +13,47 @@ layout: "single"
 <h3>연락처 정보</h3>
 
 <div class="info-line">
+<div class="info-label">
 <i class="fas fa-phone"></i>
-<strong>전화:</strong>
+<strong>전화</strong>
+</div>
+<div class="info-value">
 <a href="tel:031-315-8228">031-315-8228</a>
 </div>
+</div>
 
 <div class="info-line">
+<div class="info-label">
 <i class="fas fa-envelope"></i>
-<strong>이메일:</strong>
+<strong>이메일</strong>
+</div>
+<div class="info-value">
 <a href="mailto:peyang99@naver.com">peyang99@naver.com</a>
 </div>
+</div>
 
 <div class="info-line">
+<div class="info-label">
 <i class="fas fa-fax"></i>
-<strong>팩스:</strong>
-031-315-8661
+<strong>팩스</strong>
+</div>
+<div class="info-value">031-315-8661</div>
 </div>
 
 <div class="info-line">
+<div class="info-label">
 <i class="fas fa-map-marker-alt"></i>
-<strong>주소:</strong>
-경기도 시흥시 수인로3465번길 34
+<strong>주소</strong>
+</div>
+<div class="info-value">경기도 시흥시 수인로3465번길 34</div>
 </div>
 
 <div class="info-line">
+<div class="info-label">
 <i class="fas fa-clock"></i>
-<strong>영업시간:</strong>
-평일 오전 9:00 - 오후 5:30 (주말 및 공휴일 휴무)
+<strong>영업시간</strong>
+</div>
+<div class="info-value">평일 오전 9:00 - 오후 5:30 (주말 및 공휴일 휴무)</div>
 </div>
 </div>
 </div>
