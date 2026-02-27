@@ -17,7 +17,7 @@ _build:
 - **<a href="https://product.lottechem.com/ko/basic_materials/datasheets.do?cat1Idx=4&cat2Idx=21&cat3Idx=&miFrom=&miTo=&keyword=" target="_blank" rel="noopener">롯데케미칼</a>** - 폴리올레핀, ABS 등
 - **<a href="https://www.lgchem.com/product-detail/hdpe" target="_blank" rel="noopener">LG화학</a>** - PE, PP, ABS 등
 - **<a href="https://www.dlchemical.co.kr/ko/biz/polyethylene" target="_blank" rel="noopener">DL케미칼</a>** - 폴리올레핀 제품
-- **<a href="https://www.gscaltex.com/kr/Business/Polymer/Polypropylene" target="_blank" rel="noopener">GS칼텍스</a>** - 석유화학 제품
+- **<a href="https://www.gspolymer.com/kor/main/index.do" target="_blank" rel="noopener">GS칼텍스</a>** - 석유화학 제품
 - **<a href="https://www.s-oil.com/energy/PetrochemicalProduct05.aspx" target="_blank" rel="noopener">S-oil</a>** - 기초유분 및 화학제품
 
 상기 외에도 대부분 취급 가능합니다.
