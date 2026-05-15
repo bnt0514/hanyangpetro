@@ -13,6 +13,7 @@ _build:
 
 ### 취급 브랜드
 
+- **<a href="https://www.kpic.co.kr/hp/kr/product/polymer/pol_grp.asp?pm_cd=1310" target="_blank" rel="noopener">대한유화</a>** - 폴리올레핀 제품
 - **<a href="https://www.htpchem.com/product/product_polymer?depth2Cd=AABB" target="_blank" rel="noopener">한화토탈</a>** - PP, HDPE 등
 - **<a href="https://product.lottechem.com/ko/basic_materials/datasheets.do?cat1Idx=4&cat2Idx=21&cat3Idx=&miFrom=&miTo=&keyword=" target="_blank" rel="noopener">롯데케미칼</a>** - 폴리올레핀, ABS 등
 - **<a href="https://www.lgchem.com/product-detail/hdpe" target="_blank" rel="noopener">LG화학</a>** - PE, PP, ABS 등

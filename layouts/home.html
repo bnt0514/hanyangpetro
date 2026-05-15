@@ -7,6 +7,28 @@
       <h1>Hanyang Petrochemical Co., Ltd.</h1>
     </div>
     <p>Reliable Polymer Distribution Partner</p>
+    <div class="hero-cta">
+      {{ $orderUrl := "https://order.hanyangpetro.com/login" }}
+      {{ if eq .Lang "kr" }}
+      <a href="{{ $orderUrl }}" class="hero-btn hero-btn-primary">
+        <i class="fas fa-arrow-right-to-bracket"></i>
+        거래처 / 직원 로그인
+      </a>
+      <span class="hero-cta-note">e-Business OS · 주문 관제 시스템</span>
+      {{ else if eq .Lang "chn" }}
+      <a href="{{ $orderUrl }}" class="hero-btn hero-btn-primary">
+        <i class="fas fa-arrow-right-to-bracket"></i>
+        客户 / 员工 登录
+      </a>
+      <span class="hero-cta-note">e-Business OS · 订单管理系统</span>
+      {{ else }}
+      <a href="{{ $orderUrl }}" class="hero-btn hero-btn-primary">
+        <i class="fas fa-arrow-right-to-bracket"></i>
+        Customer / Staff Login
+      </a>
+      <span class="hero-cta-note">e-Business OS · Order Management</span>
+      {{ end }}
+    </div>
   </div>
 </section>
 {{ end }}
