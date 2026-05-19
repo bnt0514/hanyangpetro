@@ -113,6 +113,25 @@ header {
   cursor: default;
 }
 
+.lang-switcher a.order-login-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: #d91c1c;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  box-shadow: 0 8px 18px rgba(217, 28, 28, 0.24);
+}
+
+.lang-switcher a.order-login-button:hover {
+  background: #b91616;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
 /* Hero */
 .hero {
   min-height: calc(100vh - 80px);
@@ -207,6 +226,52 @@ header {
   color: white;
   font-weight: 500;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Hero CTA — link to e-Business OS login */
+.hero-cta {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 14px 32px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 999px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn-primary {
+  color: #003d82;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  border: 2px solid rgba(255, 255, 255, 0.85);
+}
+
+.hero-btn-primary:hover {
+  transform: translateY(-2px);
+  background: #f0f6ff;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.32);
+}
+
+.hero-btn i {
+  font-size: 0.95em;
+}
+
+.hero-cta-note {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.04em;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
 /* Page Content */
@@ -1022,6 +1087,15 @@ mark {
     padding: 0 10px;
   }
 
+  .hero-cta {
+    margin-top: 1.5rem;
+  }
+
+  .hero-btn {
+    padding: 12px 24px;
+    font-size: 0.95rem;
+  }
+
   /* Content container mobile */
   .content-container {
     padding: 40px 20px;
@@ -1306,6 +1380,11 @@ mark {
 
   .lang-switcher a.active {
     font-size: 1rem;
+  }
+
+  .lang-switcher a.order-login-button {
+    padding: 6px 12px;
+    font-size: 0.85rem;
   }
 
   .hero h1 {

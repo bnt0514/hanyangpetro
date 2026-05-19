@@ -47,6 +47,9 @@
         <button id="search-btn" class="search-button" aria-label="Search">
           <i class="fas fa-search"></i>
         </button>
+        <a href="https://order.hanyangpetro.com/login" class="order-login-button">
+          {{ if eq .Lang "kr" }}로그인{{ else if eq .Lang "chn" }}登录{{ else }}Login{{ end }}
+        </a>
         {{ range .Site.Home.AllTranslations }}
         {{ $url := .Permalink }}
         {{ $lang := .Lang }}

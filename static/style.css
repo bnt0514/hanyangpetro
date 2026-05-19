@@ -113,6 +113,25 @@ header {
   cursor: default;
 }
 
+.lang-switcher a.order-login-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: #d91c1c;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  box-shadow: 0 8px 18px rgba(217, 28, 28, 0.24);
+}
+
+.lang-switcher a.order-login-button:hover {
+  background: #b91616;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
 /* Hero */
 .hero {
   min-height: calc(100vh - 80px);
@@ -1361,6 +1380,11 @@ mark {
 
   .lang-switcher a.active {
     font-size: 1rem;
+  }
+
+  .lang-switcher a.order-login-button {
+    padding: 6px 12px;
+    font-size: 0.85rem;
   }
 
   .hero h1 {
