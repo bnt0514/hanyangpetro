@@ -1,12 +1,12 @@
 ---
 title: "Product Regulatory Information"
 weight: 4
-description: "제품 규제 정보"
+description: "유해물질 법령 관련 자료"
 ---
 
 ## Product Regulatory Information
 
-제품별 규제 정보 및 유해물질 관련 선언서입니다.
+유해물질 법령 관련 자료입니다.
 
 <div class="document-list">
   <div class="document-item">

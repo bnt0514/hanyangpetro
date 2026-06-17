@@ -190,7 +190,7 @@ const searchData = [
     { title: "MSDS mLLDPE", path: "자료실 > MSDS", url: "/kr/documents/msds/", content: "자료실 물질안전보건자료 Material Safety Data Sheet msds mLLDPE" },
 
     // Documents - Product Regulatory Information
-    { title: "제품 규제 정보", path: "자료실 > 제품 규제 정보", url: "/kr/documents/regulatory/", content: "자료실 Product Regulatory Information 유해물질 선언서 LDPE LLDPE MDPE HDPE mLLDPE EVA" },
+    { title: "유해물질 법령 관련 자료", path: "자료실 > 유해물질 법령 관련 자료", url: "/kr/documents/regulatory/", content: "자료실 Product Regulatory Information 유해물질 법령 관련 자료 LDPE LLDPE MDPE HDPE mLLDPE EVA" },
 
     // Documents - ISO 인증서
     { title: "ISO 9001 품질경영시스템", path: "자료실 > ISO 인증서", url: "/kr/documents/iso/", content: "자료실 ISO 9001:2015 품질경영시스템 인증서 Quality Management System" },
